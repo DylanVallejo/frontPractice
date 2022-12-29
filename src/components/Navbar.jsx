@@ -13,6 +13,8 @@ const  Navbar = ( ) =>{
                     <NavLink to='/contact'>Contact</NavLink>
                     <NavLink to='/masa'>Masa</NavLink>
                     <NavLink to='/edad'>Edad</NavLink>
+                    <NavLink to='/desmontar'>desmontar</NavLink>
+                    
                 </li>
             </ul>
         </header>

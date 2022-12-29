@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Masa from './components/Masa';
 import AgeCalc from './components/AgeCalc'
+import Unmount from './components/Unmount';
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Navbar/>
           <Routes>
             <Route path={'/'} element={<HomePage />} />
+            <Route path={'/desmontar'} element={<Unmount />} />
             <Route path={'/about'} element={<About  {...vaca}/>} />
             <Route path={'/contact'} element={<Contact />} />
             <Route path={'/masa'} element={<Masa />} />
