@@ -1,4 +1,7 @@
-import './App.css';
+// import './App.css';
+// import './App.sass';
+import './App.scss';
+
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import HomePage from './components/pages/HomePage';
